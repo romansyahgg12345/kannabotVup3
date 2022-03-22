@@ -60,7 +60,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
 handler.help = ['sticker ', 'sticker <url>']
 handler.tags = ['sticker']
 handler.command = /^s(tic?ker)?(gif)?(wm)?$/i
-handler.premium = false
+handler.limit = true
 
 module.exports = handler
 
